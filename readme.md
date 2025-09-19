@@ -1,3 +1,5 @@
+implementing all the functions on linked list from scratch !
+
 | **Implemented Functions**                  | **Yet to be Implemented**                          |
 | ------------------------------------------ | -------------------------------------------------- |
 | `getLength()`                              | Remove duplicates                                  |
