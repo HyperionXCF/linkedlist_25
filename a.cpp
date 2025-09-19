@@ -418,7 +418,7 @@ class List{
             cout << "max element : " << max << endl;
             return max;
         }
-        
+
         // harder functions to implement 
         // remove duplicates 
         // merge 2 linkedlists 
@@ -514,5 +514,15 @@ int main()
     // detect cycle
     cout << "Cycle detected? " << (ll.detect_cycle() ? "Yes" : "No") << endl;
 
+    // create linkedlist from an vector and display it 
+    vector<int> v = {1,2,3,4,5,6,7,8,9,10};
+    Node* newHead = ll.create_ll_from_array(v);
+    Node* temp = newHead;
+    while(temp!=nullptr){
+        cout << temp->data << " -> ";
+        temp = temp->next;
+    }
+    cout << "NULL" << endl;
+    
     return 0;
 }
